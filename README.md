@@ -30,8 +30,11 @@ Technology Used
 ---------------
 
 Node.js for server-side scripting
+
 Express.js for building RESTful APIs
+
 MongoDB for data storage
+
 WSO2 EI (Enterprise Integration - ESB) for integrating services at the backend and exposing a common web API
 
 Getting Started
