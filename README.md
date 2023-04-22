@@ -47,7 +47,8 @@ Installation
 
 2. Install dependencies
 
-      cd <Herbal_WebApp>
+      cd Herbal_WebApp
+      
       npm install
 
 
