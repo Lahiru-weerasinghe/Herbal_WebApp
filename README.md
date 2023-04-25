@@ -37,8 +37,8 @@ MongoDB for data storage
 
 WSO2 EI (Enterprise Integration - ESB) for integrating services at the backend and exposing a common web API
 
-Getting Started
----------------
+Getting Started ..
+------------------
 
 Installation
 1. Clone the repository
