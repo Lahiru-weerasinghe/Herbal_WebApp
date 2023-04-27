@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/cart" name="cart" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" url-mapping="/cart">
+        <inSequence>
+            <log>
+                <property name="Message" value="welcome to the cart service"/>
+            </log>
+            <send>
+                <endpoint key="getCart"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

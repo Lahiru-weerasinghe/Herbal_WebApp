@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/products" name="products" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" url-mapping="/getproducts">
+        <inSequence>
+            <log>
+                <property name="Message" value="Welcome to the product service"/>
+            </log>
+            <send>
+                <endpoint key="getProducts"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

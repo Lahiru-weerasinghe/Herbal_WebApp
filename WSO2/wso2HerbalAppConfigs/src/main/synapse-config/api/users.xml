@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/users" name="users" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" url-mapping="/getUsers">
+        <inSequence>
+            <log>
+                <property name="Message" value="welcome to user service"/>
+            </log>
+            <send>
+                <endpoint key="getUsers"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" url-mapping="/createUsers">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="createUsers"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="PUT" url-mapping="/editUsers">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="editUsers"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="DELETE" url-mapping="/deleteUsers">
+        <inSequence>
+            <log/>
+            <send>
+                <endpoint key="deleteUsers"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

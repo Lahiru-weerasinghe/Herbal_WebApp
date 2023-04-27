@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="products" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/products.xml</file>
+    </artifact>
+    <artifact name="getProducts" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getProducts.xml</file>
+    </artifact>
+    <artifact name="createProducts" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/createProducts.xml</file>
+    </artifact>
+    <artifact name="editProducts" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/editProducts.xml</file>
+    </artifact>
+    <artifact name="deleteProducts" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/deleteProducts.xml</file>
+    </artifact>
+    <artifact name="users" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/users.xml</file>
+    </artifact>
+    <artifact name="getUsers" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getUsers.xml</file>
+    </artifact>
+    <artifact name="createUsers" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/createUsers.xml</file>
+    </artifact>
+    <artifact name="editUsers" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/editUsers.xml</file>
+    </artifact>
+    <artifact name="deleteUsers" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/deleteUsers.xml</file>
+    </artifact>
+    <artifact name="cart" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/cart.xml</file>
+    </artifact>
+    <artifact name="getCart" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getCart.xml</file>
+    </artifact>
+</artifacts>
